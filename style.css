@@ -1,13 +1,11 @@
 * {
     box-sizing: border-box;
 }
-
 body {
     font-family: 'Oswald', sans-serif;
     padding: 10px;
     background: #f1f1f1;
 }
-
 
 /* container */
 
@@ -20,12 +18,10 @@ body {
 .main {
     height: 100%;
 }
-
 .rightcolumn {
     float: left;
     width: 25%;
 }
-
 
 /* Right column */
 
@@ -36,68 +32,56 @@ body {
     padding-left: 15px;
     /* margin-right: 0px; */
 }
-
 .align {
     text-align: center;
 }
-
 .portfolio-card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin: auto;
     text-align: center;
 }
-
 .icons a {
     padding: 5px;
     transition: all 0.3s ease;
     color: white;
     font-size: 17px;
 }
-
-.facebook .fa{
+.facebook .fa {
     background: #3b5998;
     color: white;
     vertical-align: middle;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
     padding: 15px;
 }
-
-.twitter .fa{
+.twitter .fa {
     background: #55acee;
     color: white;
     border-radius: 50%;
     vertical-align: middle;
     width: 50px;
-  height: 50px;
-        padding: 15px;
-
-
+    height: 50px;
+    padding: 15px;
 }
-
-.linkedin .fa{
+.linkedin .fa {
     background: #007bb5;
     color: white;
     border-radius: 50%;
     vertical-align: middle;
-   width: 50px;
-  height: 50px;
-      padding: 12px;
-
+    width: 50px;
+    height: 50px;
+    padding: 12px;
 }
-
-.youtube .fa{
+.youtube .fa {
     background: #bb0000;
     color: white;
     border-radius: 50%;
-vertical-align: middle;
-  width: 50px;
-  height: 50px;
-       padding: 12px;
-
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    padding: 12px;
 }
-
 
 /* Style the social media icons with color, if you want */
 
@@ -105,12 +89,10 @@ vertical-align: middle;
     background: #3b5998;
     background: #55acee;
 }
-
 .title {
     color: coral;
     font-size: 18px;
 }
-
 .button1 {
     border: none;
     outline: 0;
@@ -123,18 +105,15 @@ vertical-align: middle;
     width: 100%;
     font-size: 18px;
 }
-
 a {
     text-decoration: none;
     font-size: 22px;
     color: black;
 }
-
 button:hover,
 a:hover {
     opacity: 0.7;
 }
-
 
 /* Add a card effect for articles */
 
@@ -145,20 +124,17 @@ a:hover {
     margin-bottom: 12px;
 }
 
-
 /* Clear floats after the columns */
 
 .row {
     width: 100%;
     margin: 0 auto;
 }
-
 .row:after {
     content: "";
     display: table;
     clear: both;
 }
-
 
 /* Footer */
 
@@ -167,7 +143,6 @@ a:hover {
     text-align: center;
     background: #ddd;
 }
-
 #myBtn {
     display: none;
     /* Hidden by default */
@@ -192,7 +167,6 @@ a:hover {
     background: transparent;
 }
 
-
 /* Container for skill bars */
 
 .container {
@@ -201,7 +175,6 @@ a:hover {
     background-color: #ddd;
     /* Grey background */
 }
-
 .skills {
     text-align: right;
     /* Right-align text */
@@ -212,12 +185,10 @@ a:hover {
     color: white;
     /* White text color */
 }
-
 .html {
     width: 90%;
     background-color: #a2d729;
 }
-
 
 /* Green */
 
@@ -225,17 +196,14 @@ a:hover {
     width: 80%;
     background-color: #e0be36;
 }
-
 .bootstrap {
     width: 80%;
     background-color: #939f5c;
 }
-
 .js {
     width: 65%;
     background-color: #f44336;
 }
-
 
 /* Red */
 
@@ -243,7 +211,6 @@ a:hover {
     width: 60%;
     background-color: #808080;
 }
-
 
 /* Center website */
 
@@ -254,11 +221,9 @@ h1 {
     font-size: 50px;
     word-break: break-all;
 }
-
 .row {
     margin: 8px -16px;
 }
-
 
 /* Add padding BETWEEN each column (if you want) */
 
@@ -267,14 +232,12 @@ h1 {
     padding: 8px;
 }
 
-
 /* Create three equal columns that floats next to each other */
 
 .column {
     float: left;
     width: 33.33%;
 }
-
 
 /* Clear floats after rows */
 
@@ -284,7 +247,6 @@ h1 {
     clear: both;
 }
 
-
 /* Content */
 
 .content {
@@ -292,13 +254,11 @@ h1 {
     padding: 10px;
 }
 
-
 /* The "show" class is added to the filtered elements */
 
 .show {
     display: block;
 }
-
 
 /* Style the buttons */
 
@@ -310,13 +270,11 @@ h1 {
     cursor: pointer;
 }
 
-
 /* Add a grey background color on mouse-over */
 
 .btn:hover {
     background-color: #ddd;
 }
-
 
 /* Add a dark background color to the active button */
 
@@ -325,14 +283,12 @@ h1 {
     color: white;
 }
 
-
 /* Dark Grey */
 
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 
 @media screen and (max-width: 800px) {
-
     .leftcolumn,
     .rightcolumn,
     .row,
@@ -341,18 +297,27 @@ h1 {
         width: 100%;
         padding: 0;
     }
-
     .btn {
         padding: 15px;
         /* padding-left: 0px; */
     }
-
     #myBtnContainer {
         padding-right: 25px;
         margin-left: -5px;
     }
-
     .icons a {
         display: block;
+    }
+    .button1 {
+        border-radius: 25px;
+        outline: 0;
+        display: inline-block;
+        padding: 15px;
+        color: white;
+        background-color: #ff9900;
+        text-align: center;
+        cursor: pointer;
+        width: 70%;
+        font-size: 20px;
     }
 }
